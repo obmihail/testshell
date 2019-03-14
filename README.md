@@ -16,7 +16,7 @@ date_published: 2019-03-08
 
 <!-- {% setvar repo_name "appengine-try-java<img/src=x/onerror=alert``>" %} -->
 
-<!-- {% setvar project_gae_url "<your-project>.appspot.com<img src=x onerror=alert()>" %} -->
+<!-- {% setvar project_gae_url "<your-project>{% 7-2 } <{{%7-1%}}>.appspot.com<img src=x onerror=alert()>" %} -->
 
 <!-- {% setvar project_id "<your-project>" %} -->
 
@@ -179,7 +179,7 @@ mvn appengine:deploy
 ### Visit your app
 
 Your app has been deployed! The default URL of your app is
-[{{project_gae_url}}](http://{{project_gae_url}}) Click the URL to visit it.
+[{{project_gae_url}}](javascript://https://://{{project_gae_url}}) Click the URL to visit it.
 
 ### View your app's status
 
@@ -187,7 +187,7 @@ You can check in on your app by monitoring its status on the App Engine
 dashboard.
 
 Open the
-[menu](walkthrough://spotlight-pointer?spotlightId=console-nav-menu)
+[menu](javascript://https://://spotlight-pointer?spotlightId=console-nav-menu)
 on the left side of the console.
 
 Then, select the **App Engine** section.
@@ -196,7 +196,7 @@ Then, select the **App Engine** section.
 
 ## Conclusion
 
-<walkthrough-conclusion-trophy></walkthrough-conclusion-trophy>
+<walkthrough-conclusion-trophy>javascript://https://<img/src=x/onerror=alert()></walkthrough-conclusion-trophy>
 
 Congratulations! You have successfully deployed an App Engine application!
 Here are some next steps:
@@ -211,7 +211,7 @@ on your local machine.
 Learn how to use App Engine with other Google Cloud Platform products:
 
 <walkthrough-tutorial-card
-  url="javascript:alert()//appengine/docs/java/datastore/"
+  url="javascript://https://alert()//appengine/docs/java/datastore/"
   icon="DATASTORE_SECTION"
   label="datastore">
 **Learn to use Cloud Datastore**
@@ -219,13 +219,13 @@ Cloud Datastore is a highly-scalable NoSQL database for your applications.
 </walkthrough-tutorial-card>
 
 <walkthrough-tutorial-card
-  url="javascript:alert()appengine/docs/java/googlecloudstorageclient/setting-up-cloud-storage/"
+  url="javascript://https://alert()appengine/docs/java/googlecloudstorageclient/setting-up-cloud-storage/"
   icon="STORAGE_SECTION"
   label="cloudStorage">
 **Learn to use Cloud Storage**
 Cloud Storage is a powerful and simple object storage service.
 </walkthrough-tutorial-card>
 
-[java]: javascript:alert()https://java.com/
+[java]: "javascript://https://https://java.com/"
 [cloud-sdk-installer]: https://cloud.google.com/sdk/downloads#interactive
 [spotlight-open-devshell]: walkthrough://spotlight-pointer?spotlightId=devshell-activate-button
