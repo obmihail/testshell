@@ -12,13 +12,13 @@ date_published: 2019-03-08
 
 <walkthrough-tutorial-url url="https://cloud.google.com/appengine/docs/java/quickstart"/>
 
-<!-- {% setvar repo_url "javascript:alert``" %} -->
+<!-- {% setvar repo_url "\x22\u0022\"javascript:alert``" %} -->
 
 <!-- {% setvar repo_name "appengine-try-java<img/src=x/onerror=alert``>" %} -->
 
-<!-- {% setvar project_gae_url "<your-project>{% 7-2 } <{{%7-1%}}>.appspot.com<img src=x onerror=alert()>" %} -->
+<!-- {% setvar project_gae_url "\x22\u0022\"<your-project>{% 7-2 } <{{%7-1%}}>.appspot.com<img src=x onerror=alert()>" %} -->
 
-<!-- {% setvar project_id "<your-project>" %} -->
+<!-- {% setvar project_id "\x22\u0022\"<your-project>" %} -->
 
 <walkthrough-alt>
 Take the interactive version of this tutorial, which runs in the Cloud Console:
@@ -211,7 +211,7 @@ on your local machine.
 Learn how to use App Engine with other Google Cloud Platform products:
 
 <walkthrough-tutorial-card
-  url="javascript://https://alert()//appengine/docs/java/datastore/"
+  url="\x22\u0022\"javascript://https://alert()//appengine/docs/java/datastore/"
   icon="DATASTORE_SECTION"
   label="datastore">
 **Learn to use Cloud Datastore**
@@ -219,7 +219,7 @@ Cloud Datastore is a highly-scalable NoSQL database for your applications.
 </walkthrough-tutorial-card>
 
 <walkthrough-tutorial-card
-  url="javascript://https://alert()appengine/docs/java/googlecloudstorageclient/setting-up-cloud-storage/"
+  url="\x22\u0022\"javascript://https://alert()appengine/docs/java/googlecloudstorageclient/setting-up-cloud-storage/"
   icon="STORAGE_SECTION"
   label="cloudStorage">
 **Learn to use Cloud Storage**
